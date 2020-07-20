@@ -35,7 +35,7 @@ body {
 
 .icon {
   width: 15px;
-  opacity: 70%;
+  opacity: 0.7;
   cursor: pointer;
 }
 
@@ -82,13 +82,17 @@ main {
   line-height: 50px;
 }
 
+.img-section > img {
+  width: 100%;
+}
+
 .main-img > .img > img {
   width: 945px;
   margin-top: -10px;
 }
 
 .op {
-  opacity: 60%;
+  opacity: 0.6;
 }
 
 .main-img > .figcaption {
@@ -109,12 +113,27 @@ a {
   color: inherit;
 }
 
+.author {
+  margin-top: 1px;
+  margin-bottom: -13px;
+  text-align: right;
+  font-size: 11px;
+}
+
 main > .author {
   align-self: flex-start;
   font-family: Arial, Helvetica, sans-serif;
   width: 600px;
   font-size: 15px;
   margin: 25px auto auto auto;
+}
+
+.inf > a {
+  color: #326891;
+}
+
+.footer-bottom > a {
+  padding: 8px;
 }
 
 main > .author > a {
@@ -140,7 +159,7 @@ main > .author > a {
 .icons-div > i {
   padding: 6px 3.5px 1px 8px;
   height: 20px;
-  opacity: 100%;
+  opacity: 1;
 }
 
 .icons-div > .bg {
@@ -160,7 +179,7 @@ main > .author > a {
   line-height: 27px;
   font-size: 22px;
   font-weight: 300;
-  opacity: 85%;
+  opacity: 0.85;
 }
 
 .inf {
@@ -176,22 +195,17 @@ main > .author > a {
   border-top: 1px solid gray;
 }
 
-.inf > a {
-  color: #326891;
-}
-
 .stripe {
   margin: 30px auto;
   height: 100px;
   width: 100%;
   background-color: #f7f7f7;
-
 }
 
 .titles {
   font-weight: bold;
   font-size: 14px;
-  opacity: 90%;
+  opacity: 0.9;
   width: 600px;
   text-align: left;
 }
@@ -203,7 +217,7 @@ main > .author > a {
 }
 
 .txt > h3 {
-  opacity: 100%;
+  opacity: 1;
   margin-bottom: -12px;
 }
 
@@ -225,13 +239,17 @@ main > .author > a {
 .grid > .grid-item {
   line-height: 15px;
   color: black;
-  opacity: 100%;
+  opacity: 1;
+}
+
+.expand > a > b {
+  margin-right: 20px;
 }
 
 .grid > .grid-item > p > b {
   font-weight: 900;
   color: black;
-  opacity: 100%;
+  opacity: 1;
 }
 
 .line {
@@ -258,10 +276,6 @@ main > .author > a {
 
 .img-section {
   width: 600px;
-}
-
-.img-section > img {
-  width: 100%;
 }
 
 .section-footer {
@@ -294,8 +308,8 @@ main > .author > a {
   grid-template-columns: 74% 24%;
   grid-template-rows: 69% 29%;
   grid-template-areas: 
-    "more most"
-    "editor most";
+  "more most" 
+  "editor most";
 }
 
 .grid-footer-section {
@@ -321,13 +335,6 @@ main > .author > a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.author {
-  margin-top: 1px;
-  margin-bottom: -13px;
-  text-align: right;
-  font-size: 11px;
-}
-
 .li {
   font-size: 17.5px;
   line-height: 18px;
@@ -350,11 +357,10 @@ main > .author > a {
 .editors-footer {
   grid-area: editor;
   display: grid;
-  border-top:  1px solid gray;
+  border-top: 1px solid gray;
   margin-top: 30px;
   margin-right: 30px;
   padding-top: 50px;
-  display: grid;
   grid-template-columns: 32% 32% 32%;
   grid-gap: 2%;
   justify-content: space-between;
@@ -405,7 +411,6 @@ main > .author > a {
 .footer-line {
   height: 1px;
   width: 90%;
-  margin-bottom: ;
   border-top: 2px solid rgba(128, 128, 128, 0.2);
   border-bottom: 1px solid rgba(128, 128, 128, 0.5);
 }
@@ -438,10 +443,6 @@ main > .author > a {
 }
 
 .list-container {
-  /*display: grid;
-  grid-template-columns: 16% 16% 16% 16% 16% 16%;
-  grid-template-rows: 85% 13%;
-  grid-gap: 5px;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -469,23 +470,20 @@ main > .author > a {
   padding-left: 10px;
 }
 
-hr {
-  height: 1px;
+.hr {
+  height: 10px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
 }
 
 .footer-bottom {
   width: 100%;
   display: flex;
   font-size: 11px;
-  opacity: 80%;
+  opacity: 0.8;
   justify-content: center;
   padding-bottom: 15px;
   margin-top: 10px;
   border-top: 1px solid rgba(128, 128, 128, 0.5);
-}
-
-.footer-bottom > a {
-  padding: 8px;
 }
 
 .fixed-section {
@@ -513,8 +511,4 @@ hr {
   margin-right: 6%;
   margin-left: -9%;
   font-size: 12px;
-}
-
-.expand > a > b {
-  margin-right: 20px;
 }
