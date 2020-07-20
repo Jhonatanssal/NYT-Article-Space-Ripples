@@ -11,14 +11,14 @@ Building an HTML and css page that matches the appearance of this page [NYT Spac
 </p>
 
 # Live Demo
-[Click here for Live Demo](https://raw.githack.com/ositaadimma/form-project/form/index.html)
+[Click here for Live Demo](https://raw.githack.com/jssarrazolaa/NYT-Article-Space-Ripples/tree/workplace)
 # Getting Started
 
 # Authors
 - Jhonatan Sarrazola Github: @jssarrazolaa
 # Contributing
 Contributions, issues and feature requests are welcome!
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/jssarrazolaa/NYT-Article-Space-Ripples/issues).
 # Show your support
 If you like our work, please give us a :+1:
 
