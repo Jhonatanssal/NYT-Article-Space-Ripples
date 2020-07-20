@@ -11,7 +11,7 @@ Building an HTML and css page that matches the appearance of this page [NYT Spac
 </p>
 
 # Live Demo
-[Click here for Live Demo](https://raw.githack.com/jssarrazolaa/NYT-Article-Space-Ripples/tree/workplace)
+[Click here for Live Demo](https://raw.githack.com/jssarrazolaa/NYT-Article-Space-Ripples/workplace/index2.html)
 # Getting Started
 
 # Authors
