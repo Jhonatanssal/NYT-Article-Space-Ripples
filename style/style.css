@@ -307,13 +307,11 @@ main > .author > a {
   display: grid;
   grid-template-columns: 74% 24%;
   grid-template-rows: 69% 29%;
-  grid-template-areas: 
-  "more most" 
-  "editor most";
+  grid-template-areas: "more most" "editor most";
 }
 
 .grid-footer-section {
-  border-top:  1px solid gray;
+  border-top: 1px solid gray;
   margin-top: 30px;
   margin-right: 30px;
   padding-top: 50px;
